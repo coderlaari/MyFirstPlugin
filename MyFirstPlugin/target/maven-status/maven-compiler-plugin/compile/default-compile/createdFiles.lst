@@ -1,0 +1,5 @@
+me\somename\myfirstplugin\commands\FakeOpCommand.class
+me\somename\myfirstplugin\MyFirstPlugin.class
+me\somename\myfirstplugin\commands\ProtectCommand.class
+me\somename\myfirstplugin\commands\TPCommand.class
+me\somename\myfirstplugin\commands\InvisibleCommand.class

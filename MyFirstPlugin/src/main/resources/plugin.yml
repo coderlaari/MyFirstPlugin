@@ -1,0 +1,35 @@
+name: MyFirstPlugin
+version: '${project.version}'
+main: me.somename.myfirstplugin.MyFirstPlugin
+api-version: '1.20'
+commands:
+    protect:
+        description: Become invincible
+        usage: /<command>
+        permission: staff.protect
+        permission-message: You don't have permission to do this!
+    invisible:
+        description: Become invisible and visible
+        usage: /<command>
+        permission: staff.invisible
+        permission-message: You don't have permission to do this!
+    tp:
+        description: Teleport you to other player
+        usage: /<command>
+        permission: staff.teleport
+        permission-message: You don't have permission to do this!
+    fakeop:
+        description: Fake op players
+        usage: /<command> <player>
+        permission: staff.fakeop
+        permission-message: You don't have permission to do this!
+
+permissions:
+    staff.protect:
+        description: Allows to run the /protect command
+    staff.invisible:
+        description: Allows to run the /invisible command
+    staff.teleport:
+        description: Allows to teleport to other player
+    staff.fakeop:
+        description: Allows to fake op players
